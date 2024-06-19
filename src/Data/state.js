@@ -1,0 +1,17 @@
+export const state = [
+  { id: 1, name: "Ayarwaddy", value: "Ayarwaddy", code: "AYY" },
+  { id: 2, name: "Bago", value: "Bago", code: "BGO" },
+  { id: 3, name: "Chin", value: "Chin", code: "CHN" },
+  { id: 4, name: "Kachin", value: "Kachin", code: "KCN" },
+  { id: 5, name: "Kayar", value: "Kayar", code: "KYR" },
+  { id: 6, name: "Kayin", value: "Kayin", code: "KYN" },
+  { id: 7, name: "Magway", value: "Magway", code: "MGW" },
+  { id: 8, name: "Mandalay", value: "Mandalay", code: "MDY" },
+  { id: 9, name: "Mon", value: "Mon", code: "MON" },
+  { id: 10, name: "Naypyitaw", value: "Naypyitaw", code: "NPT" },
+  { id: 11, name: "Rakhine", value: "Rakhine", code: "RKE" },
+  { id: 12, name: "Sagaing", value: "Sagaing", code: "SGG" },
+  { id: 13, name: "Shan", value: "Shan", code: "SHN" },
+  { id: 14, name: "Tanintharyi", value: "Tanintharyi", code: "TNY" },
+  { id: 15, name: "Yangon", value: "Yangon", code: "YGN" },
+];
