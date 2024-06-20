@@ -4,7 +4,7 @@ import { capitalizeFirstLetters } from "../utils/capitalizeFirstLetters.js";
 export const getTownShip = async (req, res) => {
   const { region } = req.query;
   if (!region) {
-    res.status(404).json({ data: false, message: "Invalid query Data" });
+    res.status(200).json({ data: township?.data });
   }
 
   const filterRegion = capitalizeFirstLetters(region);

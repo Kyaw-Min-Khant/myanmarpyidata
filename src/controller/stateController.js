@@ -1,5 +1,5 @@
 import { state } from "../Data/state.js";
 
-export const getState = async (req, res) => {
+export const getState = (req, res) => {
   return res.status(200).json({ data: state });
 };
